@@ -35,6 +35,7 @@ public class UpgradeCardManager : MonoBehaviour
     [Inject]
     public void Initialize(PlayerData playerData)
     {
+
         while (playerData.Cards.Count < _cardInfos.Count)
         {
             playerData.Cards.Add(0);
@@ -66,8 +67,15 @@ public class UpgradeCardManager : MonoBehaviour
 
             transferItem.MyUpgradeButton.onClick.AddListener(() => UpgradeCard(playerData, transferIndex, transferItem));
 
-            transferItem.MyUpgradeButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Upgrade: " + (playerData.Cards[transferIndex] * UpgradeCost);
+            if (playerData.Cards[transferIndex] != 0)
+            {
+                transferItem.MyUpgradeButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Upgrade: " + (playerData.Cards[transferIndex] * UpgradeCost);
+            }
+            else
+            {
+                transferItem.MyUpgradeButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Not available: ";
 
+            }
             //15 is max reaching card level
             if (playerData.Cards[i] == 0 && playerData.Cards[i] > StaticFields.MAX_CARD_LVL)
             {
@@ -75,11 +83,12 @@ public class UpgradeCardManager : MonoBehaviour
             }
         }
 
+        ChangeCardImage(playerData.CurrentSkin[(int)PlayerSkinType.card]);
     }
 
     public void UpgradeCard(PlayerData playerData, int index, UpgradCardItem item)
     {
-        if (playerData.TryChangeValueCoin(-UpgradeCost * playerData.Cards[index]))
+        if (playerData.TryChangeValueCoin(-UpgradeCost * playerData.Cards[index]) && playerData.Cards[index] > 0)
         {
             playerData.Cards[index]++;
 

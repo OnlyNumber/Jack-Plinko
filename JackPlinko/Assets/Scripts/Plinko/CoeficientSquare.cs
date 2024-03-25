@@ -32,7 +32,7 @@ public class CoeficientSquare : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Ball"))
         {
-            _ballSpawner.SetRewardWithCoeficient(_coeficient, collision.gameObject.GetComponent<Rigidbody2D>());
+            _ballSpawner.SetRewardWithCoeficient(_coeficient, collision.gameObject.GetComponent<Ball>());
 
             Destroy(collision.gameObject);
         }

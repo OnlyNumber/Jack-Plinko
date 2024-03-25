@@ -8,10 +8,14 @@ public class CoinIndicator : MonoBehaviour
 {
     [SerializeField]
     private List<TMP_Text> _coinTextList;
-    
+
+    private PlayerData player;
+
     [Inject] public void Initialize(PlayerData playerData)
     {
         playerData.OnChangeCoin += ShowCoin;
+
+        player = playerData;
 
         ShowCoin(playerData.Coins);
     }
@@ -24,5 +28,10 @@ public class CoinIndicator : MonoBehaviour
         }
     }
 
+    [ContextMenu("AddCoins")]
+    public void AddCoins()
+    {
+        player.TryChangeValueCoin(200);
+    }
 
 }

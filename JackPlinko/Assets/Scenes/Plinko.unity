@@ -316,6 +316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -377,6 +381,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -501,6 +509,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2744,6 +2756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2942,6 +2958,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4081,6 +4101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4767,6 +4791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4828,6 +4856,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4965,6 +4997,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5179,6 +5215,10 @@ MonoBehaviour:
   _cardsParent: {fileID: 96782976}
   _cardPrefab: {fileID: 1857993122283820257, guid: e3293e774be14374a80fc7e20aeb4c72, type: 3}
   _ballSpawner: {fileID: 1634777724}
+  _skinInfos:
+  - {fileID: 11400000, guid: a0f8d81806c5c404bbbb48f739877cfd, type: 2}
+  - {fileID: 11400000, guid: 56a282f0f78688242afe0e310227c638, type: 2}
+  - {fileID: 11400000, guid: c3676ee13d6cb504a97b20285c1bd5a5, type: 2}
 --- !u!1 &1429032941
 GameObject:
   m_ObjectHideFlags: 0
@@ -10743,7 +10783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallsCount: 3
   _radius: 0.5
-  _prefabBall: {fileID: 1980083405069027930, guid: a608210da4f296c4a93d4805b803d5fe, type: 3}
+  _prefabBall: {fileID: 5598190118471295961, guid: a608210da4f296c4a93d4805b803d5fe, type: 3}
   _currentBall: {fileID: 0}
   _ballCount: {fileID: 1570726206}
   _totalWinText: {fileID: 1986587746}
@@ -11188,6 +11228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11528,6 +11572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11589,6 +11637,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12402,6 +12454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleObstacle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12671,6 +12727,10 @@ PrefabInstance:
     - target: {fileID: 7690322624511143914, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
       propertyPath: m_Name
       value: CircleObstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416631738058583846, guid: 7fde265f73e862044b0be6aa6c021c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

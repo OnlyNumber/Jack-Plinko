@@ -27,6 +27,8 @@ public class SkinShop : MonoBehaviour
 
     public System.Action<int> OnSkinChange;
 
+    public PanelControl panel;
+
     [Inject]
     public void Initialize(PlayerData playerData)
     {
@@ -105,6 +107,10 @@ public class SkinShop : MonoBehaviour
             _player.PlayerSkins[(int)shopType].list[index] = true;
 
             BuyAndEquip(index, cost);
+        }
+        else
+        {
+            panel.SetPanel(true);
         }
 
         return;

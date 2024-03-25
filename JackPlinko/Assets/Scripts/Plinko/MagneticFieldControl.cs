@@ -23,13 +23,16 @@ public class MagneticFieldControl : MonoBehaviour
 
     private PlayerData _playerData;
 
+    [SerializeField]
+    private List<SkinInfoItem> _skinInfos;
+
     [Inject]
     public void Initialize(PlayerData player)
     {
         _playerData = player;
 
         _ballSpawner.OnWin += GetRandomCard;
-
+        _ballSpawner.OnWin += ResetFields;
     }
 
     [ContextMenu("GetRandomCard")]
@@ -39,39 +42,53 @@ public class MagneticFieldControl : MonoBehaviour
 
         float RandomCard = Random.Range(0, 100);
 
-        
 
-        for (int i = 0; i < cardInfos.Count; i++)
-        {
-            if(RandomCard >= chanceCard*i && RandomCard <= chanceCard * i + ((chanceCard/ StaticFields.MAX_CARD_LVL) * _playerData.Cards[i]) && _playerData.Cards[i]!= 0)
-            {
-                Card transfer = Instantiate(_cardPrefab, _cardsParent);
 
-                transfer.Initialize(cardInfos[i], CardSuit.none);
+        //for (int i = 0; i < cardInfos.Count; i++)
+        //{
+        //if(RandomCard >= chanceCard*i && RandomCard <= chanceCard * i + ((chanceCard/ StaticFields.MAX_CARD_LVL) * _playerData.Cards[i]) && _playerData.Cards[i]!= 0)
+        //{
+        Card transfer = Instantiate(_cardPrefab, _cardsParent);
 
-                int index = i;
+        transfer.Initialize(cardInfos[0], CardSuit.none);
 
-                transfer.GetComponent<Button>().onClick.AddListener(() => SetFields(index));
+        transfer.CardImage.sprite = _skinInfos[_playerData.CurrentSkin[(int)PlayerSkinType.card]].SkinSprite;
 
-                transfer.GetComponent<StopGame>().Intialize(_ballSpawner);
+        int index = 0;
 
-                return;
-            }
-            
-        }
+        transfer.GetComponent<Button>().onClick.AddListener(() => SetFields(index, transfer.gameObject));
+
+        transfer.GetComponent<StopGame>().Intialize(_ballSpawner);
+
+        return;
+        //}
+
+        //}
 
 
     }
 
-    public void SetFields(int index)
+    public void SetFields(int index,GameObject gameObject)
     {
         ResetFields();
 
+        Debug.Log("fields");
+
+
         for (int i = 0; i < magneticFields.Count; i++)
         {
-            if(cardInfos[index].ActivatedCirles[i])
-            magneticFields[i].gameObject.SetActive(true);
+            Debug.Log("for");
+            if (cardInfos[index].ActivatedCirles[i])
+            {
+                Debug.Log("fields true");
+
+
+                magneticFields[i].gameObject.SetActive(true);
+            }
         }
+
+        Destroy(gameObject);
+
     }
 
     public void ResetFields()

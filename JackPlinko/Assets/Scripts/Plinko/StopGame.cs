@@ -12,6 +12,8 @@ public class StopGame : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void Intialize(BallSpawner ballSpawner)
     {
+        _ballSpawner = ballSpawner;
+
         ballSpawner.OnWin += Life;
     }
 
@@ -32,8 +34,10 @@ public class StopGame : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        _ballSpawner.OnWin -= Life;
+
         _ballSpawner.IsGame = true;
-        Destroy(gameObject);
+        //Destroy(gameObject);
 
     }
 }

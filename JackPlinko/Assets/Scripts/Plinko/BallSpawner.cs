@@ -16,10 +16,10 @@ public class BallSpawner : MonoBehaviour
     private float _radius;
 
     [SerializeField]
-    private Rigidbody2D _prefabBall;
+    private Ball _prefabBall;
 
     [SerializeField]
-    private Rigidbody2D _currentBall;
+    private Ball _currentBall;
 
     [SerializeField]
     private TMP_Text _ballCount;
@@ -50,7 +50,7 @@ public class BallSpawner : MonoBehaviour
 
     public float BallPrice;
 
-    private List<Rigidbody2D> _ballsPool = new List<Rigidbody2D>();
+    private List<Ball> _ballsPool = new List<Ball>();
 
     public System.Action OnWin;
 
@@ -75,7 +75,7 @@ public class BallSpawner : MonoBehaviour
         BallPrice = totalBet / ballsCount;
 
         TotalWin = 0;
-        _ballCount.text = _currentBallCount + " / " + BallsCount;
+        _ballCount.text = _currentBallCount + " : " + BallsCount;
     }
 
     private void Update()
@@ -89,11 +89,13 @@ public class BallSpawner : MonoBehaviour
         {
             _currentBall = Instantiate(_prefabBall, transform);
 
-            _currentBall.GetComponent<SpriteRenderer>().sprite = _skinInfos[_playerData.CurrentSkin[(int)PlayerSkinType.ball]].SkinSprite;
+            _currentBall.origin = this;
 
-            _currentBall.bodyType = RigidbodyType2D.Kinematic;
+            _currentBall.Sprite.sprite = _skinInfos[_playerData.CurrentSkin[(int)PlayerSkinType.ball]].SkinSprite;
 
-            _currentBall.velocity = Vector2.zero;
+            _currentBall.Rigidbody2D.bodyType = RigidbodyType2D.Kinematic;
+
+            _currentBall.Rigidbody2D.velocity = Vector2.zero;
 
             _firstPos = Input.GetTouch(0).position;
             _ballsPool.Add(_currentBall);
@@ -107,10 +109,10 @@ public class BallSpawner : MonoBehaviour
 
         if (Input.GetTouch(0).phase == TouchPhase.Ended && _currentBall)
         {
-            _currentBall.bodyType = RigidbodyType2D.Dynamic;
-            _currentBall.AddForce(GetDirection(_firstPos, Input.GetTouch(0).position) * _forcePower, ForceMode2D.Impulse);
+            _currentBall.Rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
+            _currentBall.Rigidbody2D.AddForce(GetDirection(_firstPos, Input.GetTouch(0).position) * _forcePower, ForceMode2D.Impulse);
             _currentBallCount--;
-            _ballCount.text = _currentBallCount + " / " + BallsCount;
+            _ballCount.text = _currentBallCount + " : " + BallsCount;
 
         }
     }
@@ -130,7 +132,7 @@ public class BallSpawner : MonoBehaviour
         return angle;
     }
 
-    public void SetRewardWithCoeficient(float coeficient, Rigidbody2D ball)
+    public void SetRewardWithCoeficient(float coeficient, Ball ball)
     {
         _playerData.TryChangeValueCoin(BallPrice * coeficient);
 
@@ -145,6 +147,16 @@ public class BallSpawner : MonoBehaviour
 
             ShowWinPanel();
         }
+
+    }
+
+    public void ReturnBall(Ball ball)
+    {
+        _currentBallCount++;
+
+        _ballCount.text = _currentBallCount + " : " + BallsCount;
+
+        _ballsPool.Remove(ball);
 
     }
 

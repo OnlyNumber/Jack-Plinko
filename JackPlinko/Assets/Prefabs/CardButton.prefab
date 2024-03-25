@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardCount: 0
+  CardImage: {fileID: 7384470818817499710}
   circles:
   - {fileID: 921186157965197229}
   - {fileID: 1146511221524864436}
