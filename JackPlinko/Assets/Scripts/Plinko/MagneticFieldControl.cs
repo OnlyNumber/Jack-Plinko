@@ -44,31 +44,31 @@ public class MagneticFieldControl : MonoBehaviour
 
 
 
-        //for (int i = 0; i < cardInfos.Count; i++)
-        //{
-        //if(RandomCard >= chanceCard*i && RandomCard <= chanceCard * i + ((chanceCard/ StaticFields.MAX_CARD_LVL) * _playerData.Cards[i]) && _playerData.Cards[i]!= 0)
-        //{
-        Card transfer = Instantiate(_cardPrefab, _cardsParent);
+        for (int i = 0; i < cardInfos.Count; i++)
+        {
+            if (RandomCard >= chanceCard * i && RandomCard <= chanceCard * i + ((chanceCard / StaticFields.MAX_CARD_LVL) * _playerData.Cards[i]) && _playerData.Cards[i] != 0)
+            {
+                Card transfer = Instantiate(_cardPrefab, _cardsParent);
 
-        transfer.Initialize(cardInfos[0], CardSuit.none);
+                transfer.Initialize(cardInfos[i], CardSuit.none);
 
-        transfer.CardImage.sprite = _skinInfos[_playerData.CurrentSkin[(int)PlayerSkinType.card]].SkinSprite;
+                transfer.CardImage.sprite = _skinInfos[_playerData.CurrentSkin[(int)PlayerSkinType.card]].SkinSprite;
 
-        int index = 0;
+                int index = i;
 
-        transfer.GetComponent<Button>().onClick.AddListener(() => SetFields(index, transfer.gameObject));
+                transfer.GetComponent<Button>().onClick.AddListener(() => SetFields(index, transfer.gameObject));
 
-        transfer.GetComponent<StopGame>().Intialize(_ballSpawner);
+                transfer.GetComponent<StopGame>().Intialize(_ballSpawner);
 
-        return;
-        //}
+                return;
+            }
 
-        //}
+        }
 
 
     }
 
-    public void SetFields(int index,GameObject gameObject)
+    public void SetFields(int index, GameObject gameObject)
     {
         ResetFields();
 
