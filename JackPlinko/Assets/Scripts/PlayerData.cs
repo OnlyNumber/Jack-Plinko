@@ -37,6 +37,10 @@ public class PlayerData
 
     public bool IsFirstLog = true;
 
+    public int VolumeClip;
+
+    public int VolumeMusic;
+
     public PlayerData()
     {
         _coin = 200;

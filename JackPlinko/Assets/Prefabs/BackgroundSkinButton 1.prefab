@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 7168809895577479886}
   - component: {fileID: 5263943578423466947}
   - component: {fileID: 5974526799282310908}
+  - component: {fileID: 2490261248261060863}
   m_Layer: 5
   m_Name: BackgroundSkinButton 1
   m_TagString: Untagged
@@ -307,6 +308,19 @@ MonoBehaviour:
   LockImage: {fileID: 1973414626286658389}
   CostGO: {fileID: 7551085810774932276}
   CostText: {fileID: 6587515026197485864}
+--- !u!114 &2490261248261060863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4484020088471304191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c833fa96495894e902b74405a48c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 8300000, guid: 18f86372557310d47b6d7b1748b5443f, type: 3}
 --- !u!1 &6139778480260683787
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 222273463304110156, guid: b45abdaf76d8f8f4c8e17e203d316861, type: 3}
       propertyPath: m_fontSize
-      value: 87.45
+      value: 88.35
       objectReference: {fileID: 0}
     - target: {fileID: 3509704903600317008, guid: b45abdaf76d8f8f4c8e17e203d316861, type: 3}
       propertyPath: m_Name
@@ -456,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3685693990945157853, guid: b45abdaf76d8f8f4c8e17e203d316861, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 327.8
+      value: 307.8027
       objectReference: {fileID: 0}
     - target: {fileID: 3685693990945157853, guid: b45abdaf76d8f8f4c8e17e203d316861, type: 3}
       propertyPath: m_SizeDelta.y
@@ -492,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3685693990945157853, guid: b45abdaf76d8f8f4c8e17e203d316861, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -9.9986
       objectReference: {fileID: 0}
     - target: {fileID: 3685693990945157853, guid: b45abdaf76d8f8f4c8e17e203d316861, type: 3}
       propertyPath: m_AnchoredPosition.y

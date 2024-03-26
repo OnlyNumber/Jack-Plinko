@@ -54,7 +54,7 @@ public class SkinShop : MonoBehaviour
             
             if (_player.PlayerSkins[(int)shopType].list[i])
             {
-                Debug.Log(i);
+                //Debug.Log(i);
                 _skinItems[i].CostGO.SetActive(false);
                 _skinItems[i].LockImage.gameObject.SetActive(false);
             }

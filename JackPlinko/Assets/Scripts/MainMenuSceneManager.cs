@@ -1,21 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class MainMenuSceneManager : MonoBehaviour
 {
+    [SerializeField]
+    private PanelControl loadPanel;
+
     public void LoadPlinko()
     {
-        SceneManager.LoadScene(StaticFields.PLINKO_SCENE);
+        SceneLoad(StaticFields.PLINKO_SCENE);
     }
 
     public void LoadBJ()
     {
-        SceneManager.LoadScene(StaticFields.BJ_SCENE);
+        SceneLoad(StaticFields.BJ_SCENE);
     }
 
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(StaticFields.MAIN_MENU_SCENE);
+        SceneLoad(StaticFields.MAIN_MENU_SCENE);
+    }
+
+    public void SceneLoad(string scene)
+    {
+
+        SceneManager.LoadScene(scene);
+
+
     }
 
     public void Quit()
