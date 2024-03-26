@@ -9,7 +9,7 @@ public class ChangeGameBack : MonoBehaviour
     private List<SkinInfoItem> _skinInfos;
 
     [SerializeField]
-    private SpriteRenderer _spriteRenderer;
+    private UnityEngine.UI.Image _spriteRenderer;
 
     [Inject] public void Intialize(PlayerData player)
     {

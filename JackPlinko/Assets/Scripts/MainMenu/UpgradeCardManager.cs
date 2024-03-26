@@ -27,6 +27,11 @@ public class UpgradeCardManager : MonoBehaviour
     [SerializeField]
     private SkinShop _shop;
 
+    [SerializeField]
+    private PanelControl _notEnoughPanel;
+
+    private float _spacingAmount = 50;
+
     private void Start()
     {
         _shop.OnSkinChange += ChangeCardImage;
@@ -46,9 +51,7 @@ public class UpgradeCardManager : MonoBehaviour
             playerData.Cards.RemoveAt(playerData.Cards.Count);
         }
 
-        // 50 is spacing between two upgrade items
-
-        _cardItemsPosition.sizeDelta = new Vector2(_cardItemsPosition.sizeDelta.x, playerData.Cards.Count * (50 + _cardItemPrefab.GetComponent<RectTransform>().sizeDelta.y));
+        _cardItemsPosition.sizeDelta = new Vector2(_cardItemsPosition.sizeDelta.x, playerData.Cards.Count * (_spacingAmount + _cardItemPrefab.GetComponent<RectTransform>().sizeDelta.y));
 
 
         for (int i = 0; i < playerData.Cards.Count; i++)
@@ -73,10 +76,11 @@ public class UpgradeCardManager : MonoBehaviour
             }
             else
             {
-                transferItem.MyUpgradeButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Not available: ";
+                transferItem.MyUpgradeButton.interactable = false;
 
+                transferItem.MyUpgradeButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Not available: ";
             }
-            //15 is max reaching card level
+
             if (playerData.Cards[i] == 0 && playerData.Cards[i] > StaticFields.MAX_CARD_LVL)
             {
                 transferItem.MyUpgradeButton.interactable = false;
@@ -88,14 +92,17 @@ public class UpgradeCardManager : MonoBehaviour
 
     public void UpgradeCard(PlayerData playerData, int index, UpgradCardItem item)
     {
-        if (playerData.TryChangeValueCoin(-UpgradeCost * playerData.Cards[index]) && playerData.Cards[index] > 0)
+        if (playerData.TryChangeValueCoin(-UpgradeCost * playerData.Cards[index]))
         {
             playerData.Cards[index]++;
 
             item.MyUpgradeButton.GetComponentInChildren<TMPro.TMP_Text>().text = "Upgrade: " + (playerData.Cards[index] * UpgradeCost);
 
-
             item.MyUpgradeIndexText.text = playerData.Cards[index].ToString();
+        }
+        else
+        {
+            _notEnoughPanel.SetPanel(true);
         }
     }
 

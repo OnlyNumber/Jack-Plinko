@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5ddcb6adc843d4b924a08446eaccb9, type: 3}
   m_Name: Background
   m_EditorClassIdentifier: 
-  SkinSprite: {fileID: 21300000, guid: 1447df6d542300d49bebb0beb3d78f52, type: 3}
+  SkinSprite: {fileID: -751684194, guid: 756bfd432436f354fb4727beebf3005a, type: 3}
   SkinCost: 0

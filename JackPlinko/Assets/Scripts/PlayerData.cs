@@ -35,6 +35,8 @@ public class PlayerData
 
     public List<int> CurrentSkin = new List<int>();
 
+    public bool IsFirstLog = true;
+
     public PlayerData()
     {
         _coin = 200;
