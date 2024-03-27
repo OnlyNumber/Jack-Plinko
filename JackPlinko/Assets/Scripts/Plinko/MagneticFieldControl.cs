@@ -26,6 +26,8 @@ public class MagneticFieldControl : MonoBehaviour
     [SerializeField]
     private List<SkinInfoItem> _skinInfos;
 
+    
+
     [Inject]
     public void Initialize(PlayerData player)
     {
@@ -38,15 +40,11 @@ public class MagneticFieldControl : MonoBehaviour
     [ContextMenu("GetRandomCard")]
     public void GetRandomCard()
     {
-        float chanceCard = 100 / cardInfos.Count;
-
-        float RandomCard = Random.Range(0, 100);
-
-
+        float RandomCard = Random.Range(0, GetUpgradeCardBefore(_playerData.Cards.Count));
 
         for (int i = 0; i < cardInfos.Count; i++)
         {
-            if (RandomCard >= chanceCard * i && RandomCard <= chanceCard * i + ((chanceCard / StaticFields.MAX_CARD_LVL) * _playerData.Cards[i]) && _playerData.Cards[i] != 0)
+            if (RandomCard >= GetUpgradeCardBefore(i) && RandomCard <= GetUpgradeCardBefore(i + 1) && _playerData.Cards[i] != 0)
             {
                 Card transfer = Instantiate(_cardPrefab, _cardsParent);
 
@@ -62,11 +60,21 @@ public class MagneticFieldControl : MonoBehaviour
 
                 return;
             }
+        }
+    }
 
+    private int GetUpgradeCardBefore(int index)
+    {
+        int sum = 0;
+
+        for (int i = 0; i < index; i++)
+        {
+            sum += _playerData.Cards[i];
         }
 
-
+        return sum;
     }
+
 
     public void SetFields(int index, GameObject gameObject)
     {

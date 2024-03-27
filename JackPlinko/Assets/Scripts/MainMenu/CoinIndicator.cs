@@ -34,4 +34,16 @@ public class CoinIndicator : MonoBehaviour
         player.TryChangeValueCoin(200);
     }
 
+    [ContextMenu("DecreaceCoins")]
+    public void DecreaceCoins()
+    {
+        player.TryChangeValueCoin(-10);
+    }
+
+    private void OnDestroy()
+    {
+        player.OnChangeCoin -= ShowCoin;
+
+    }
+
 }
