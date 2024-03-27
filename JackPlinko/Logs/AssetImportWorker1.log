@@ -1,0 +1,847 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\UnityEditorFolder\Unity 2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+A:/UnityProjects/SlotProjects/Jack-Plinko/JackPlinko
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50041
+Successfully changed project path to: A:/UnityProjects/SlotProjects/Jack-Plinko/JackPlinko
+A:/UnityProjects/SlotProjects/Jack-Plinko/JackPlinko
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9844] Host "[IP] 25.58.39.68 [Port] 0 [Flags] 2 [Guid] 2933891202 [EditorId] 2933891202 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9844] Host "[IP] 25.58.39.68 [Port] 0 [Flags] 2 [Guid] 2933891202 [EditorId] 2933891202 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 9.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/UnityProjects/SlotProjects/Jack-Plinko/JackPlinko/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: A:/UnityEditorFolder/Unity 2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005003 seconds.
+- Loaded All Assemblies, in  0.530 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (346ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (131ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.993 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (700ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (220.7 KB). Loaded Objects now: 5308.
+Memory consumption went from 178.0 MB to 177.8 MB.
+Total: 6.208800 ms (FindLiveObjects: 0.539700 ms CreateObjectMapping: 0.669400 ms MarkObjects: 4.466600 ms  DeleteObjects: 0.530000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 471.080764 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Diamonds/Profile Diamond 03.prefab
+  artifactKey: Guid(05de0c3c3132f4602a422ee674ae2f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Diamonds/Profile Diamond 03.prefab using Guid(05de0c3c3132f4602a422ee674ae2f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd003bbf1f21d1256931e872b2c3ac5') in 0.043068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Profile Coin 02.prefab
+  artifactKey: Guid(4b13fcb82f868484e93e4c7a9be88f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Profile Coin 02.prefab using Guid(4b13fcb82f868484e93e4c7a9be88f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00742ff3916b46e43c8e67d094beceb3') in 0.007470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Progress Bar Coin.prefab
+  artifactKey: Guid(80af7f5d15fe5456096f1ae5a6f08064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Progress Bar Coin.prefab using Guid(80af7f5d15fe5456096f1ae5a6f08064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7641ff778d29f507b9d2834eb7660b') in 0.006194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Profile Energy 01.prefab
+  artifactKey: Guid(8be0a5bcbf36e4193892c1eddc730063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Profile Energy 01.prefab using Guid(8be0a5bcbf36e4193892c1eddc730063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007a52d802173e34a5667fc4289ba7dc') in 0.006724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Progress Bar Energy.prefab
+  artifactKey: Guid(9a5a3098a913341bfa7d64964fae7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Progress Bar Energy.prefab using Guid(9a5a3098a913341bfa7d64964fae7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60bc35f3ab84ed28c2581d208d81a6a') in 0.005511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Diamonds/Progress Bar Diamond.prefab
+  artifactKey: Guid(37fa6551fc26445d4a08ff898313c736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Diamonds/Progress Bar Diamond.prefab using Guid(37fa6551fc26445d4a08ff898313c736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36acb52247b8f992a356ed93eef66e3c') in 0.004473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Profile Coin 06.prefab
+  artifactKey: Guid(31ed85be43d2447c79ab1c0d32e35922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Profile Coin 06.prefab using Guid(31ed85be43d2447c79ab1c0d32e35922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eb279262dca12df27422e4ab44f296') in 0.004576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Profile Energy 03.prefab
+  artifactKey: Guid(a361b9633f67347c18a8b1fe69229d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Profile Energy 03.prefab using Guid(a361b9633f67347c18a8b1fe69229d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9363590c4d6f4c724971feca4d21ea2d') in 0.005838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Profile Energy 06.prefab
+  artifactKey: Guid(88f555d29ce684ddfbf1a56929234992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Energys/Profile Energy 06.prefab using Guid(88f555d29ce684ddfbf1a56929234992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf285a3941ed9d41c9c68e1072121fe') in 0.006780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Profile Coin 05.prefab
+  artifactKey: Guid(93c4d2dfe965d4e06922041db4a4d823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Cartoon/Prefabs/Profile/Coins/Profile Coin 05.prefab using Guid(93c4d2dfe965d4e06922041db4a4d823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e80213ea992f85a5bfded7b96ab3829') in 0.007772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 83.241742 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_night.png
+  artifactKey: Guid(d945739b8d2d04141b6e25fb7a2a5a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_night.png using Guid(d945739b8d2d04141b6e25fb7a2a5a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8360fc454287652d5c0c768407d97785') in 0.072879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_silver.png
+  artifactKey: Guid(e8a387224ac9046c9be9fcd44ba0ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_silver.png using Guid(e8a387224ac9046c9be9fcd44ba0ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702a8c9d3a73bd8911ac4ace93f1b2a9') in 0.021956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_red.png
+  artifactKey: Guid(b09dac3dc1644456b89ec42975480993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_red.png using Guid(b09dac3dc1644456b89ec42975480993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c738845524f8b6f4196d43960b8f87') in 0.019626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.552210 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_yellow.png
+  artifactKey: Guid(e0ee1a70a6458410584fa76f44c14d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel3_tallround_yellow.png using Guid(e0ee1a70a6458410584fa76f44c14d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df40638678c1fdce12fd488feffe0e7b') in 0.032439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.197376 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_blue.png
+  artifactKey: Guid(f95e3ad76ccf3499c9b5b548c9735bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_blue.png using Guid(f95e3ad76ccf3499c9b5b548c9735bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16258674a1c49e0151fd8b63f5bd3586') in 0.013676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.243020 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_green.png
+  artifactKey: Guid(9ab837416b5c841e1bac2f0dd98e2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_green.png using Guid(9ab837416b5c841e1bac2f0dd98e2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2fc693d4708752d8d274a49aa98953') in 0.031937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.375522 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_lightyellow.png
+  artifactKey: Guid(8486973f5479e49d29b018fc4e4daba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_lightyellow.png using Guid(8486973f5479e49d29b018fc4e4daba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8aeb94b0412ae2b7a8cb64acafe679') in 0.026283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046596 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_pink.png
+  artifactKey: Guid(5eda0b4544f154479a24d8450db1883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_pink.png using Guid(5eda0b4544f154479a24d8450db1883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78912bdad04306b7a232232436778d42') in 0.017569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_purple.png
+  artifactKey: Guid(668ceee86a09a4d17a06fb330553da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_purple.png using Guid(668ceee86a09a4d17a06fb330553da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0609f5d85fc10b64ed47a39d6e93a6af') in 0.018071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.110947 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_silver.png
+  artifactKey: Guid(dc1cf57dd12404d9c8ef315dac8f4699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_silver.png using Guid(dc1cf57dd12404d9c8ef315dac8f4699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764aa2c10a20421c1a3541a8ffa15303') in 0.018283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_transparent.png
+  artifactKey: Guid(6b72e452dcc5245a98019573e7612378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel4_shortarc_transparent.png using Guid(6b72e452dcc5245a98019573e7612378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158d54907c71696309c2bc741f1a92f9') in 0.017252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041853 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_aqua.png
+  artifactKey: Guid(6de18a2e4179b43d196f8d82e745f0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_aqua.png using Guid(6de18a2e4179b43d196f8d82e745f0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72a772a7dd5e05cb5b4c407624a964') in 0.018926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_black.png
+  artifactKey: Guid(93fb4d9a6150a4e1f9fb7a13dd9e3972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_black.png using Guid(93fb4d9a6150a4e1f9fb7a13dd9e3972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7de0501a1219b78ac1d7139953d198') in 0.018123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.256518 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_brown.png
+  artifactKey: Guid(18b52c960330543039b76fff35a7e1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_brown.png using Guid(18b52c960330543039b76fff35a7e1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceac41bf5b96abe10619447c093d8ee8') in 0.018026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_greyscale.png
+  artifactKey: Guid(a4414c8d6bcf845c5809a3c26ee365d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_greyscale.png using Guid(a4414c8d6bcf845c5809a3c26ee365d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd0c73df5cef1b945e26d9f35e4a52') in 0.022719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_cream.png
+  artifactKey: Guid(ae8bf9b25d54a4476a8fdc7a4442d346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_cream.png using Guid(ae8bf9b25d54a4476a8fdc7a4442d346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac738f870bf68fbe98cdc8e49627c42') in 0.018820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023122 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_night.png
+  artifactKey: Guid(2e1921a135d674ab39340400c2e534f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_night.png using Guid(2e1921a135d674ab39340400c2e534f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531d0f85bc2e0ac1d553e8c2087fe417') in 0.015562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_orange.png
+  artifactKey: Guid(97d101255e4914b02a8daedc9635c442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_orange.png using Guid(97d101255e4914b02a8daedc9635c442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8350f6c6cdbe9ea55b2acf3a97f137') in 0.013711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.250605 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_purple.png
+  artifactKey: Guid(5f15f0d650d014f169457bf9da814da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_purple.png using Guid(5f15f0d650d014f169457bf9da814da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b3aef019da1d7a82131994b9a939f3') in 0.030659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_red.png
+  artifactKey: Guid(51c6dd6007ef645e1a245c5537602f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_red.png using Guid(51c6dd6007ef645e1a245c5537602f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3caaa7e99d9acf9c809c500c2a7031') in 0.030687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_yellow.png
+  artifactKey: Guid(f5968bdb597a54009998c50cd945d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel5_midarc_yellow.png using Guid(f5968bdb597a54009998c50cd945d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5753d4b819d09dd96467d3210e79b195') in 0.025072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_brown.png
+  artifactKey: Guid(201870b64378747d08da60b7e267146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_brown.png using Guid(201870b64378747d08da60b7e267146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca672d60bb37a60deff92bd99f10b6a') in 0.019037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_aqua.png
+  artifactKey: Guid(580adf0b270da4e1e9523595e4a187fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_aqua.png using Guid(580adf0b270da4e1e9523595e4a187fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a96b6b438c11a71faf1250df0bea8bb') in 0.019798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_greyscale.png
+  artifactKey: Guid(64e86e1b48b0a4a54a0c72058ad29b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_greyscale.png using Guid(64e86e1b48b0a4a54a0c72058ad29b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f983e82e5b50b043a874ebe7c208b900') in 0.025134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_blue.png
+  artifactKey: Guid(6ecd4a9ddad2744d592a414c0b4692a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_blue.png using Guid(6ecd4a9ddad2744d592a414c0b4692a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2918608d67c2ce291a22a5b4d3ddd1') in 0.025715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.153484 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_orange.png
+  artifactKey: Guid(85b33a5e042224dffa6401b25d84cea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_orange.png using Guid(85b33a5e042224dffa6401b25d84cea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd45e57a916a731502c58378b61c382d') in 0.032918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_pink.png
+  artifactKey: Guid(9164370a211ee423db7043b24103def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_pink.png using Guid(9164370a211ee423db7043b24103def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164420c63d7f0cc74c749c4e608d33de') in 0.023307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009257 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_red.png
+  artifactKey: Guid(712d8eb67c77740cfb674f87f7a76794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_red.png using Guid(712d8eb67c77740cfb674f87f7a76794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f98ed4301deee8b5f7d324be5070072') in 0.019362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_aqua.png
+  artifactKey: Guid(f7baaf14ab2fd4b2bb1e64d179be55f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_aqua.png using Guid(f7baaf14ab2fd4b2bb1e64d179be55f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946c8cda0777e61ee04241b4d204aaa7') in 0.017648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_brown.png
+  artifactKey: Guid(3c8bc2a0a685a4529981b592d77904cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_brown.png using Guid(3c8bc2a0a685a4529981b592d77904cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1138c2478832f834b2e47367da486ecf') in 0.021525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_black.png
+  artifactKey: Guid(26d3aca1fe7b547c78e30891b6da8542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_black.png using Guid(26d3aca1fe7b547c78e30891b6da8542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587fcbc0b5f73140f00222fa7b982f50') in 0.019934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_transparent.png
+  artifactKey: Guid(5dff2fba5b6bd4889bf4aa794111c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panel6_tallarc_transparent.png using Guid(5dff2fba5b6bd4889bf4aa794111c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf79e42600d0e22907b0e7c062fa47f') in 0.025935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.308082 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_green.png
+  artifactKey: Guid(5c78d5274517c49c4ae9ee2ec81f3066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_green.png using Guid(5c78d5274517c49c4ae9ee2ec81f3066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a43aee681ce2540fa57a3d14000ff7a') in 0.024911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_greyscale.png
+  artifactKey: Guid(5b9211e32b0444aa98935d988433997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_greyscale.png using Guid(5b9211e32b0444aa98935d988433997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ad1fff65b4d0d339c0d1377a26aa32') in 0.020899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014912 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_lightyellow.png
+  artifactKey: Guid(cb755f2e307f84ec197a6d6d02218591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_lightyellow.png using Guid(cb755f2e307f84ec197a6d6d02218591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efec03b7d0158c265cffb2c3a305ef1') in 0.018325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_night.png
+  artifactKey: Guid(e2c388bebbbdd4ee1b3f880f1ef734e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_night.png using Guid(e2c388bebbbdd4ee1b3f880f1ef734e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f8c7c50c11ef1e89c3010fca9961d0') in 0.016464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.403157 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_pink.png
+  artifactKey: Guid(3d89f4d45cf794d88bc73e38557a2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_pink.png using Guid(3d89f4d45cf794d88bc73e38557a2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668f28105feea9e3f5422151ebd2e27c') in 0.020233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_purple.png
+  artifactKey: Guid(559fce3ba1b2b46d8aceb0ef0999a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_purple.png using Guid(559fce3ba1b2b46d8aceb0ef0999a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8941699b6298c90ae9a8384399bfaefd') in 0.027424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006165 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_silver.png
+  artifactKey: Guid(e0c3b41748f074e86851973f08e1250c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_silver.png using Guid(e0c3b41748f074e86851973f08e1250c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb2674a554aa38ea0bbfcfbb57cf21e') in 0.022475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_transparent.png
+  artifactKey: Guid(108ef75a5b6f745cfb0b48eb739f9abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll1_transparent.png using Guid(108ef75a5b6f745cfb0b48eb739f9abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929cbdd4621da24cb8dac8d857874b85') in 0.013001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_aqua.png
+  artifactKey: Guid(a9858f8317cdb4d6eaf4c5f53a74af30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_aqua.png using Guid(a9858f8317cdb4d6eaf4c5f53a74af30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5542355028e38e5e21f66edbefd27e') in 0.016494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014648 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_brown.png
+  artifactKey: Guid(dcd37326bfeb44553862628f2f22b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_brown.png using Guid(dcd37326bfeb44553862628f2f22b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2a4a6eeb182cc2445759073917d0c9') in 0.016494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.237090 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_greyscale.png
+  artifactKey: Guid(9326e6a5811c44ccf952e9b7933be2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_greyscale.png using Guid(9326e6a5811c44ccf952e9b7933be2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12403e27e1c09aec459a3f1544202b30') in 0.029106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024628 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_night.png
+  artifactKey: Guid(e071d898289d0492392d0fd580eb504c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_night.png using Guid(e071d898289d0492392d0fd580eb504c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b02b90692ec8cd98d0cee6c76d99d0') in 0.014227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002892 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_pink.png
+  artifactKey: Guid(bf7d7908e652c4aeeb2c8bbb95676dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_pink.png using Guid(bf7d7908e652c4aeeb2c8bbb95676dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5701183fa02209b2077d08df5696d8') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_purple.png
+  artifactKey: Guid(76fb53d473ce34b0a92d388e3a8d31a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_purple.png using Guid(76fb53d473ce34b0a92d388e3a8d31a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fd4afae1b810065748ae4ec91388d3') in 0.013577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_yellow.png
+  artifactKey: Guid(142d65f546e844ad3a1493c0f71c3fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelscroll2_yellow.png using Guid(142d65f546e844ad3a1493c0f71c3fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f504ae2b324efad70ebd0513851d4c8') in 0.016669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_blue.png
+  artifactKey: Guid(75cfb6d3d9db04c53a84f983b20db08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_blue.png using Guid(75cfb6d3d9db04c53a84f983b20db08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b017a0b2d352890d8e2a849339a804a') in 0.020938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_aqua.png
+  artifactKey: Guid(19716ea66cd8742f7b7e580f1997cd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_aqua.png using Guid(19716ea66cd8742f7b7e580f1997cd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc120aa37c1fa8f92d419f705a26f104') in 0.015721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.213461 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_cream.png
+  artifactKey: Guid(1c5f09774600442a9b21d9b80a77274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_cream.png using Guid(1c5f09774600442a9b21d9b80a77274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1894291efddd490148c807463fab64c6') in 0.014908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027912 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_lightgreen.png
+  artifactKey: Guid(21188aa21076b4361a92ceff3ade6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_lightgreen.png using Guid(21188aa21076b4361a92ceff3ade6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004e2151c2df554e43a2119058b2472b') in 0.026467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_lightyellow.png
+  artifactKey: Guid(578d1e421254a43c8bac1164c1701939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_lightyellow.png using Guid(578d1e421254a43c8bac1164c1701939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84266e7044696ef06f1c9f022b43a52c') in 0.014498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_night.png
+  artifactKey: Guid(e6e9a6ab0e2a2459b9767ba87f300d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_night.png using Guid(e6e9a6ab0e2a2459b9767ba87f300d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71798657ae6e3e2a8dbbb02c18a4ca39') in 0.013748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_selected.png
+  artifactKey: Guid(04f0e2bce398146f9967fbcc01c4625d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_selected.png using Guid(04f0e2bce398146f9967fbcc01c4625d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5e8ba8b3d0c44d1ea38bed3f0e81e') in 0.015914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_transparent.png
+  artifactKey: Guid(f08b42291522a4051a49ad5a445a1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_transparent.png using Guid(f08b42291522a4051a49ad5a445a1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114c9ab326fbbaf7efa3ef70022d13cf') in 0.015990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_silver.png
+  artifactKey: Guid(35bf60b1a3db04cb4b0f212f159d15f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot1_silver.png using Guid(35bf60b1a3db04cb4b0f212f159d15f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01399cfaf2332403f2872ab21d33728') in 0.015100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.218915 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_black.png
+  artifactKey: Guid(ae6401cf34a584c0cb6966b9010b6c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_black.png using Guid(ae6401cf34a584c0cb6966b9010b6c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83a31922468197edb2262ab57231838') in 0.022182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002305 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_brown.png
+  artifactKey: Guid(c4903df6484ed4aa0905cab1a89eb779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_brown.png using Guid(c4903df6484ed4aa0905cab1a89eb779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be877252d4794edd0523ea78e27caea') in 0.017709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_cream.png
+  artifactKey: Guid(ef9f5d7b12ebf43fcbf6a2256714e3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_cream.png using Guid(ef9f5d7b12ebf43fcbf6a2256714e3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913b207bff4a8e84ff26d7be89e2fba3') in 0.014040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_greyscale.png
+  artifactKey: Guid(e46ba775fdd6641e68dc06acf60e8790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_greyscale.png using Guid(e46ba775fdd6641e68dc06acf60e8790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9128b27ab1f5927f1108507c764a1660') in 0.014630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_pink.png
+  artifactKey: Guid(29f2b9caadadf4c4a948b5f9af91383f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_pink.png using Guid(29f2b9caadadf4c4a948b5f9af91383f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d631131cc99f030158864636b6e5c4') in 0.017948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_orange.png
+  artifactKey: Guid(273033b1b1855423ab1ce650f99aedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_orange.png using Guid(273033b1b1855423ab1ce650f99aedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8fe0160f52b8fcf43526150cae05de') in 0.014208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_purple.png
+  artifactKey: Guid(ab5195aa30c11467791a4fbae6e1c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_purple.png using Guid(ab5195aa30c11467791a4fbae6e1c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5546981c3e68d12c3ceb0e18b7284eaa') in 0.016519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.233415 seconds.
+  path: Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_transparent.png
+  artifactKey: Guid(36570bb964188403fa703344de6f2f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI Kit Pro - Big Bundle/UI Kit Pro - Knight Fight/Sprites/Panels/1x/panelslot2_transparent.png using Guid(36570bb964188403fa703344de6f2f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae185ea311bcc49d38bf6af3746315e0') in 0.027729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.131 seconds
+Domain Reload Profiling: 2642ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2131ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (547ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4815 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (220.2 KB). Loaded Objects now: 5328.
+Memory consumption went from 172.3 MB to 172.1 MB.
+Total: 3.804200 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.319700 ms MarkObjects: 2.942800 ms  DeleteObjects: 0.179500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
