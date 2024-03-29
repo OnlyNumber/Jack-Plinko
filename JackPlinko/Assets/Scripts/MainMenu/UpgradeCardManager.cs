@@ -34,7 +34,7 @@ public class UpgradeCardManager : MonoBehaviour
 
     private void Start()
     {
-        _shop.OnSkinChange += ChangeCardImage;
+        //_shop.OnSkinChange += ChangeCardImage;
     }
 
     [Inject]
@@ -88,6 +88,9 @@ public class UpgradeCardManager : MonoBehaviour
         }
 
         ChangeCardImage(playerData.CurrentSkin[(int)PlayerSkinType.card]);
+
+        _shop.OnSkinChange += ChangeCardImage;
+
     }
 
     public void UpgradeCard(PlayerData playerData, int index, UpgradCardItem item)
@@ -108,6 +111,8 @@ public class UpgradeCardManager : MonoBehaviour
 
     public void ChangeCardImage(int index)
     {
+        Debug.Log(_cardItemspool.Count);
+
         foreach (var item in _cardItemspool)
         {
             item.MyCard.CardImage.sprite = _skinInfos[index].SkinSprite;

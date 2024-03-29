@@ -48,7 +48,7 @@ public class PlayerData
         for (int i = 0; i < (int)PlayerSkinType.Count; i++)
         {
             PlayerSkins.Add(new ListWrapper());
-            CurrentSkin.Add(-1);
+            CurrentSkin.Add(0);
         }
 
 
