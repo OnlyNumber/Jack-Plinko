@@ -11,7 +11,7 @@ public class SlotMachine : MonoBehaviour
 
     public PanelControl winPanel;
 
-    //public TMPro.TMP_Text coinText;
+    public ParticleSystem particleSystem;
 
     private PlayerData player;
 
@@ -84,6 +84,7 @@ public class SlotMachine : MonoBehaviour
         {
             player.TryChangeValueCoin(100);
             winPanel.SetPanel(true);
+            particleSystem.Play();
         }
 
 

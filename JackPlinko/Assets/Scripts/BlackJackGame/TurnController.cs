@@ -13,6 +13,8 @@ public class TurnController : MonoBehaviour
 
     public System.Action OnCheckingWin;
 
+    public ParticleSystem particleSystem;
+
     public PanelControl WinPanelControl;
 
     public PanelControl LosePanelControl;
@@ -90,7 +92,11 @@ public class TurnController : MonoBehaviour
 
         if ((turnPeople[0].GetCardsCount() > turnPeople[1].GetCardsCount() && turnPeople[0].GetCardsCount() <= 21) || (turnPeople[0].GetCardsCount() <= 21 && turnPeople[1].GetCardsCount() > 21))
         {
+            
+
             WinPanelControl.SetPanel(true);
+
+            particleSystem.Play();
 
             GetReward();
         }

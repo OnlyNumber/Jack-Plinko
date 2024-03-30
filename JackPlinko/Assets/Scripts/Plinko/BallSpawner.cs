@@ -28,6 +28,9 @@ public class BallSpawner : MonoBehaviour
     private TMP_Text _totalWinText;
 
     [SerializeField]
+    private ParticleSystem _coinsRain;
+
+    [SerializeField]
     private PanelControl _winPanel;
 
     [SerializeField]
@@ -163,8 +166,9 @@ public class BallSpawner : MonoBehaviour
     public void ShowWinPanel()
     {
 
-
+        Debug.Log("Win");
         _winPanel.SetPanel(true);
+        _coinsRain.Play();
         _totalWinText.text = TotalWin.ToString();
         IsGame = false;
     }
