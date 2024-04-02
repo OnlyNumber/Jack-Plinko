@@ -2,8 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-[Ll]ibrary
-[Tt]emp
+/[Ll]ibrary/
+/[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
@@ -70,3 +70,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+JackPlinko/Library/ArtifactDB
+JackPlinko/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/libburst-llvm-16.dylib
